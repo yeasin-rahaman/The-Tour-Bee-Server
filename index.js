@@ -46,12 +46,7 @@ async function run() {
         app.post('/services', async (req, res) => {
 
             const service = req.body;
-
             // console.log('Hit the post Api',service);
-
-
-
-
             const result = await servicesCollection.insertOne(service);
             //    console.log(result);
             res.json(result);
@@ -69,14 +64,10 @@ async function run() {
 
         })
 
-
-
     }
     finally {
         // await client.close()
     }
-
-
 }
 
 run().catch(console.dir);
@@ -84,10 +75,10 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Ranning genious Server')
+    res.send('Running Server')
 
 });
 
 app.listen(port, () => {
-    console.log('Rannig server is port', port);
+    console.log('Running server is port', port);
 });
