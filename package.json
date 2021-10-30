@@ -1,16 +1,24 @@
 {
-  "name": "the-tour-bee",
+  "name": "the-tour-bee-server-assignment-11",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "start-dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-yeasin-rahaman.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-yeasin-rahaman/issues"
+  },
+  "homepage": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-yeasin-rahaman#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
